@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<link rel="icon" href="https://cdn-icons-png.flaticon.com/128/870/870183.png">
+	<title>Stopwatch</title>
+</head>
+<body>
+	<div class="wrap">
+
+	<div class="container">
+		<div class="timer">
+			<div class="timer__block">
+				<div class="time hour">00</div>
+				<div class="titel">Hours</div>
+			</div>
+
+			<div class="timer__block">
+				<div class="time minute">00</div>
+				<div class="titel">Minute</div>
+			</div>
+
+			<div class="timer__block">
+				<div class="time second">00</div>
+				<div class="titel">Secons</div>
+			</div>
+
+			<div class="timer__block">
+				<div class="time milisecond">00</div>
+				<div class="titel">Miliseconds</div>
+			</div>
+		</div>
+		<div class="buttons">
+			<button class="button start">Start</button>
+			<button class="button pause">Pause</button>
+			<button class="button stop">Stop</button>
+			<button class="button result">Result</button>
+
+
+		</div>
+	</div>
+
+	<div class="result__block" id="result__block">
+		<div class="result__open" id="result__open">
+			<div class="open" id="open">
+				<img class="opne__img" src="./img/opne__arrow.png" alt="open">
+			</div>
+		</div>
+		<div class="result__main">
+		<p class="results__titel">Results:</p>
+		<div class="results__box">
+		<div class="result" id="result"></div>
+		</div>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+	<script src="./script/script.js"></script>
+</body>
+</html>
